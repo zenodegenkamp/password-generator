@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #eb5e28, #252422);
+    background-attachment: fixed;
+    color: white;
+}
+
+#title-text {
+    color: #eb5e28;
+}
+
+#generator-section {
+    background-color: #252422;
+    width: 70%;
+    margin: 10% 10%;
+    padding: 20px 20px;
+}
+
+#generate-button {
+    background-color: #eb5e28;
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+#input-length-password {
+    height: 32px;
+    width: 45px;
+    border-radius: 4px;
+    border: none;
+    background-color: #403d39;
+    color: white;
+    text-align: right; 
+}
+
+hr {
+  height:1px;
+  border-width:0;
+  background-color: #403d39;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    color: lightgrey;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+#password-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#first-password, #second-password {
+    background-color: #403d39;
+    width: 45%;
+    height: 20px;
+    padding: 8px 5px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    color: #eb5e28
+}

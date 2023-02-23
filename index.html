@@ -1,0 +1,19 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="generator-section">
+            <h1>Generate a <br><span id="title-text">random password</span></h1>
+            <p>Use the number input to generate a password from 15-25 characters!</p>
+            <button id="generate-button" onclick="getPassword()">Generate passwords</button>
+            <input type="number" id="input-length-password" min="15" max="25" placeholder="15">
+            <hr>
+            <div id="password-section">
+            <p id="first-password"></p>
+            <p id="second-password"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
